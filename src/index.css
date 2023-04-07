@@ -1,0 +1,352 @@
+/* Style the navigation menu */
+nav {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Style the list of links in the navigation menu */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Style the links in the navigation menu */
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 10px;
+}
+
+/* Style the links in the navigation menu when they are hovered over */
+nav a:hover {
+  color: #fff;
+  background-color: #333;
+}
+
+/* Style the footer element */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the text within the footer */
+footer p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Style the div containing the heading and paragraph */
+div {
+  background-color: #f2f2f2;
+  color: #333;
+  padding: 20px;
+}
+
+/* Style the heading within the div */
+div h1 {
+  font-size: 36px;
+  margin-top: 0;
+}
+
+/* Style the paragraph within the div */
+div p {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+/* Style the products section */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Style each product card */
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 400px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the image within each product card */
+.product-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+/* Style the name within each product card */
+.product-name {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Style the description within each product card */
+.product-description {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Style the price within each product card */
+.product-price {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #0077c0;
+}
+
+/* Style the buttons within each product card */
+.product-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Style the form */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* Style the labels within the form */
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Style the inputs within the form */
+input,
+textarea {
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-top: 5px;
+  width: 300px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  }
+  
+  button:hover {
+  background-color: #0069d9;
+  }
+  
+  button:active {
+  background-color: #0062cc;
+  }
+  
+  button:focus {
+  outline: none;
+  }
+  
+  button[type="submit"] {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+  background-color: darkblue;
+  }
+  
+  /* Form styles */
+  form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  
+  div {
+  margin: 10px 0;
+  }
+  
+  label {
+  font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  }
+  
+  span {
+  color: red;
+  font-size: 12px;
+  }
+  
+  /* Product card styles */
+  .product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+  
+  .product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  }
+  
+  .product-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+  }
+  
+  .product-details {
+  margin-top: 10px;
+  text-align: center;
+  }
+  
+  .product-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  }
+  
+  .product-description {
+  margin-top: 5px;
+  font-size: 1rem;
+  }
+  
+  .product-price {
+  margin-top: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  }
+  
+  .product-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: auto;
+  }
+  
+  /* File input styles */
+  input[type="file"] {
+  display: none;
+  }
+  
+  /* Container styles */
+  .contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #333;
+  }
+  
+  .parrafo {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+  color: #666;
+  }
+  
+  /* Social media links styles */
+  .lista {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  }
+  
+  .item {
+  margin: 0 10px;
+  }
+
+  .item a {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #4267B2;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    }
+    
+    .item a:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    background-color: #2e4d85;
+    }
+
+    .modal-overlay {
+      position: fixed;
+      z-index: 999;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .modal {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      max-width: 600px;
+      max-height: 600px;
+      overflow: auto;
+    }
+    
+    
+
+
+
