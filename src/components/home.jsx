@@ -38,7 +38,7 @@ function Home() {
   return (
     <div>
       <div>
-        <img src="../../public/img/gale.jpg" alt="image description" />
+        <img src="/img/gale.jpg" alt="image description" />
         <p>Your text goes here</p>
       </div>
       {products.map((product) => (

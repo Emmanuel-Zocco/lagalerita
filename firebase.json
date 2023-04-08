@@ -1,0 +1,37 @@
+{
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "hosting": {
+    
+    "target": "secondawesome",
+    "public": "build/web",
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
+    "headers": [
+      {
+        "source": "/",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache"
+          }
+        ]
+      }
+    ],
+    "cleanUrls": true,
+    "trailingSlash": false,
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "customDomains": [
+      "www.lagalerita.com"
+    ]
+  }
+}

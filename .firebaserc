@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "la-galerita"
+  },
+  "targets": {
+    "la-galerita": {
+      "hosting": {
+        "secondawesome": [
+          "resources"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
